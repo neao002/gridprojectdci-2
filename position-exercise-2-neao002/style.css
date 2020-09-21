@@ -1,0 +1,254 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica;
+}
+
+/* code here */
+
+#home {
+
+    width: 100%;
+    height: 30rem;
+    background-color: lightblue;
+    position: relative;
+}
+
+header img:nth-of-type(1) {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30rem;
+    width: 100%;
+}
+
+header img:nth-of-type(2) {
+
+    position: absolute;
+    top: 0;
+    right: 750px;
+    margin: 0 auto;
+    height: 20rem;
+    width: 10%;
+}
+
+header h2 {
+
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+  
+  font-size: 3rem;
+  color: orange;
+            font-size: 30px;
+            text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000
+  
+
+}
+
+nav {
+
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-between;
+    margin: auto;
+    position: sticky;    
+    background-color: black;
+    top: 60px;
+    
+}
+
+
+
+
+nav div a {
+
+    font-size: 3.2rem;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    
+    line-height: 6rem;
+    
+    
+    
+}
+
+nav div a:hover {
+
+    background-color: yellow;
+    
+}
+
+.sec1 {
+
+    position: relative;
+    width: 100%;
+    height: 70rem;
+
+
+
+}
+
+.sec1-content div {
+
+    background-color: white;
+  width: 40%;
+  justify-content: center;
+  height: 20rem;
+  margin: 30px;
+  border: 1px solid red;
+  border-radius: 10px;
+
+
+
+}
+
+.sec1-content div:nth-of-type(1) {
+
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  font-size: 2.2rem;
+  
+
+}
+
+.sec1-content div:nth-of-type(2) {
+
+    position: absolute;
+  bottom: 80px;
+  left: 60px;
+  font-size: 18px;
+    
+  
+  }
+
+  .sec1-content div:nth-of-type(3) {
+
+    position: absolute;
+    top: 120px;
+    right: 16px;
+    font-size: 18px;
+   
+  
+  }
+  .sec1-content div:nth-of-type(4) {
+
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+   
+  
+  }
+
+
+
+.sec2 {
+
+    
+    width: 100%;
+    height: 40rem;
+    border-top: 20px solid black;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+
+} 
+
+.sec2 div {
+
+  
+  
+    width: 50%;
+    height: 70%;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+
+.sec2 .one {
+
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    background-color: orange;
+
+}
+.sec2 .two {
+
+    position: absolute;
+    left: 20%;
+    top: 40px;
+    background-color: lightblue;
+
+}
+.sec2 .three {
+
+    position: absolute;
+    left: 37%;
+    top: 55px;
+    background-color: purple;
+
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+
+    position: sticky;
+    bottom: 0;
+}
+
+.sec3 {
+
+    background-color: white;
+    width: 70px;
+    height: 70px;
+
+    position: fixed;
+    bottom: 70px;
+    left: 93%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    margin: 10px;
+
+}
+
+.sec3 a {
+
+    background: #f00;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+
+}
+
